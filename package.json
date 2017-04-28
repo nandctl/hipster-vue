@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "VueTestApp",
+  "description": "Vue starter with vuex, redux-saga and styled-components",
+  "version": "0.0.0",
+  "repository": {},
+  "scripts": {
+    "test": "echo lol",
+    "test:unit": "vbuild -c vbuild.unit.js",
+    "lint": "vbuild --eslint",
+    "dev": "vbuild -d",
+    "build": "vbuild"
+  },
+  "devDependencies": {
+    "vbuild": "^6.0.0",
+    "vbuild-karma": "^1.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "redux-saga": "^0.14.8",
+    "vue-styled-components": "^1.1.1",
+    "vuex": "^2.3.1",
+    "vuex-redux-saga": "^0.0.1"
+  }
+}
